@@ -5,8 +5,8 @@ import numpy as np
 import pickle
 from sklearn.preprocessing import StandardScaler
 
-application =Flask(__name__)
-app =application
+app =Flask(__name__)
+
 
 ## Import the model and standard scaler 
 logistic_model =pickle.load(open("models/logistic_clf.pkl","rb"))
